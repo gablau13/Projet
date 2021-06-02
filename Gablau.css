@@ -2,6 +2,8 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
   }
   
 
@@ -21,7 +23,7 @@ ul{
     margin-top: 15px;
     padding: 0;
     overflow: hidden;
-    background-color:blue;
+    background-color:lightblue;
 
 }
 
@@ -50,6 +52,7 @@ li a:hover:not(.active){
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    flex: 1 0 auto;
   }
   
   .hero-text {
@@ -87,6 +90,7 @@ li a:hover:not(.active){
       padding-top: 0px;
       padding-right: 0px;
       padding-bottom: 0px;
+      flex: 1 0 auto;
   }
   .titre_section{
       font-size: 26px;
@@ -102,7 +106,7 @@ li a:hover:not(.active){
       line-height: 24px;
       margin-top: 30px;
       margin-bottom: 15px;
-      color: #313030;
+      color: black;
   }
 
   .colonne{
@@ -123,3 +127,8 @@ li a:hover:not(.active){
       backface-visibility: hidden;
       height: 200px;
   }
+
+
+  
+
+  
